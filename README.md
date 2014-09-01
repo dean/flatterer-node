@@ -8,12 +8,15 @@ To begin, run the following commands:
     # Copy over your 
     cp config.json.dist config.json
 
+    # Compile es6->es5
+    gulp build
+
     # Start the server!
     npm start
     ```
 
-We use ES6 syntax for compilation, so edit files in es6/* when making changes.
-To build the es6 files, run:
+We use ES6 syntax for compilation, so you will need to build before running the server.
+To build, run:
     `gulp build`
 
 Licensed under Apache License 2.0
