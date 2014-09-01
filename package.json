@@ -1,0 +1,35 @@
+{
+  "name": "flatterer-node",
+  "version": "0.0.0",
+  "description": "Flatter Me Please written in Node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dean/node-flatterer"
+  },
+  "keywords": [
+    "flatter",
+    "flatterer"
+  ],
+  "author": "Dean Johnson",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/dean/node-flatterer/issues"
+  },
+  "homepage": "https://github.com/dean/node-flatterer",
+  "dependencies": {
+    "del": "^0.1.2",
+    "express": "4.x",
+    "gulp": "^3.8.7",
+    "gulp-mocha": "^1.0.0",
+    "gulp-traceur": "^0.13.0",
+    "mocha": "^1.21.4",
+    "traceur": "0.0.58",
+    "bookshelf": "^0.0.0",
+    "mysql": "~2.4.3",
+    "sequelize": "~1.7.10"
+  }
+}
